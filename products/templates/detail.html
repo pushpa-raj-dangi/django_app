@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content%}
+<div class="row p-5 text-center">
+<h2>
+     {{product.name}} | <button class="btn btn-primary">Add to cart</button>
+</h2>
+
+ <div class="card w-50 m-auto">
+<img src="{{product.image}}" alt="">
+ <h1>{{ product.name }}</h1>
+ </div>
+</div>
+{% endblock %}
